@@ -1,0 +1,94 @@
+/* styles.css */
+
+/* .custom-button {
+    margin-left: 350px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: rgb(34, 59, 34);
+    color: rgb(127, 15, 15);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  } */
+  
+  /* 2nd pic and data*/
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .custom-button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .button-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .ecom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .ecom-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .ecom-text {
+    max-width: 600px;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 1200px) {
+    .ecom-image {
+      width: 400px;
+      height: 250px;
+    }
+  
+    .ecom-text {
+      max-width: 500px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .ecom-section {
+      flex-direction: column;
+    }
+  
+    .ecom-image {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+  
+    .ecom-text {
+      text-align: center;
+      padding: 0 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .ecom-text {
+      max-width: 100%;
+    }
+  }
+ 

@@ -1,0 +1,11 @@
+
+.custom-navbar {
+    background-color: black; /* Set background color to black */
+  }
+  
+  .custom-navbar .navbar-nav .nav-link {
+    color: white !important; /* Set text color to white */
+  }
+  .custom-navbar .navbar-brand {
+    color: rgb(196, 228, 35) !important; /* Set text color of Navbar.Brand to white */
+  }

@@ -1,0 +1,94 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header and paragraph styles */
+  .h1-name {
+    margin-left: 40px;
+    color: rgb(19, 18, 18);
+  }
+  
+  .h2-name {
+    margin-left: 180px;
+    color: rgb(212, 14, 14);
+    padding-top: 30px;
+  }
+  
+  .p-spacing {
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+  
+  /* Button styles */
+  .dev-button {
+    display: inline-block;
+    background-color: rgb(42, 136, 230);
+    border: 3px solid rgb(196, 169, 169);
+    color: black;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .dev-button:hover {
+    background-color: rgb(176, 172, 214);
+    border-color: chocolate;
+    color: white;
+  }
+  
+  /* Ecommerce section styles */
+  .ecom-section {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .ecom-image {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: -100px;
+  }
+  
+  .ecom-text {
+    max-width: 600px;
+    margin-left: 100px;
+  }
+  
+  /* Media query for responsive layout */
+  @media (max-width: 768px) {
+    .h2-name {
+      margin-left: 0;
+      text-align: center;
+    }
+  
+    .p-spacing {
+      padding-left: 10px;
+      text-align: center;
+    }
+  
+    .ecom-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .ecom-image {
+      margin-left: 0;
+      margin-bottom: 20px;
+    }
+  
+    .ecom-text {
+      margin-left: 0;
+      text-align: center;
+    }
+  }
+  

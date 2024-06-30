@@ -1,0 +1,30 @@
+.carousel-container {
+    max-height: 500px;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
+    text-decoration-color: black;
+}
+
+.carousel-caption {
+    display: block;
+    font-size: 1.5rem;
+
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        display: block;
+        font-size: 0.75rem;
+
+    }
+}
+
+@media (max-width: 390px) {
+    .carousel-caption {
+        display: none;
+    }
+}
