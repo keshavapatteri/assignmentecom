@@ -1,7 +1,7 @@
 
 import React from 'react';
-// import { Link } from 'react-router-dom';
-import './dev.css'; // Assuming this is your CSS file
+
+import './dev.css'; 
 
 function Services() {
   return (
